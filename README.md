@@ -28,7 +28,6 @@ Reference to the documentation of Previous SDK versions [here](https://github.co
 
 | Version | Last Updated | Author | Release Note|
 | ---- | ---- | ---- | ---- |
-
 | v1.0.0 | 16 November 2022 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | -Initial release |
 
 For more details of previous versions , [click here](docs/v1.0.0/Version-History.md).
