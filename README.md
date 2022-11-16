@@ -10,7 +10,7 @@ To get started, explore the InTouch Demo App.
 
 Already have an application? Give it a boost with the powerful features of InTouch. Learn how to [Integrate the InTouch SDK](#IntegrateIntouchSDK)
 
-- [Setup](#Setup): Please contact apisupport@mapmyindia.com to get the Intouch SDK authorisation for your Client ID and Client Secret.
+- [Setup](#Setup): Please contact apisupport@mappls.com to get the Intouch SDK authorisation for your Client ID and Client Secret.
 - [Quick Start](https://github.com/mappls-api/mappls-intouch-android-sdk#intouchdemo-app): Start with a ready-to-go app
 - [Integrate the SDK](#IntegrateIntouchSDK): Integrate the SDK into your app
 - [Dashboard](docs/v1.0.0/Dashboard.md): See all your devices' locations on Mappls InTouch Dashboard
@@ -35,25 +35,25 @@ For more details of previous versions , [click here](docs/v1.0.0/Version-History
 
 ## [Table Of Content](#Table-Of-Content)
 
-- [InTouch Android SDK](GettingStarted.md)
+- [InTouch Android SDK](docs/v1.0.0/GettingStarted.md)
 
-* [Getting Started](./GettingStarted.md#a-namesetupsetup)
+* [Getting Started](docs/v1.0.0/GettingStarted.md#setup)
 
-* [Add your API keys to the SDK](./GettingStarted.md#step-2-set-your-publishable-key)
+* [Add your API keys to the SDK](docs/v1.0.0/GettingStarted.md#step-2-set-your-publishable-key)
 
-* [Add a Mappls InTouch Sdk to your application](./GettingStarted.md#a-nameaddintouchsdkstep-2-add-intouch-sdka)
+* [Add a Mappls InTouch Sdk to your application](docs/v1.0.0/GettingStarted.md#integrate-the-intouch-sdk)
 
-- [Intouch Telematics API's](./Dashboard.md)
-    * [Device Details](./DeviceDetails.md)
-    * [Event's Data](./Event-Data.md)
-    * [Drive's Data](./Drive-Data.md)
-    * [GeoFences](./Geofences.md)
-    * [Alarms](./Alarms.md)
-    * [Trips](./Trips.md)
-- [Tracking Error](./TrackingErrors.md)
-- [Utility Methods](./UtilityMethods.md)
-- [InTouch Constants](./InTouchConstants.md) 
--[MapmyIndia BLE Plugin](./Mappls-BLE-Plugins.md)
+- [Intouch Telematics API's](docs/v1.0.0/Dashboard.md)
+    * [Device Details](docs/v1.0.0/DeviceDetails.md)
+    * [Event's Data](docs/v1.0.0/Event-Data.md)
+    * [Drive's Data](docs/v1.0.0/Drive-Data.md)
+    * [GeoFences](docs/v1.0.0/Geofences.md)
+    * [Alarms](docs/v1.0.0/Alarms.md)
+    * [Trips](docs/v1.0.0/Trips.md)
+- [Tracking Error](docs/v1.0.0/TrackingErrors.md)
+- [Utility Methods](docs/v1.0.0/UtilityMethods.md)
+- [InTouch Constants](docs/v1.0.0/InTouchConstants.md) 
+-[MapmyIndia BLE Plugin](docs/v1.0.0/Mappls-BLE-Plugins.md)
 <br><br><br>
 
 For any queries and support, please contact:

@@ -12,23 +12,23 @@ To get started, explore the InTouch Demo App.
 
 Already have an application? Give it a boost with the powerful features of InTouch. Learn how to [Integrate the InTouch SDK](#IntegrateIntouchSDK)
 
-- [Setup](#Setup): Please contact apisupport@mapmyindia.com to get the Intouch SDK authorisation for your Client ID and Client Secret.
+- [Setup](#Setup): Please contact apisupport@mappls.com to get the Intouch SDK authorisation for your Client ID and Client Secret.
 - [Quick Start](https://github.com/mappls-api/mappls-intouch-android-sdk#intouchdemo-app): Start with a ready-to-go app
 - [Integrate the SDK](./GettingStarted.md): Integrate the SDK into your app
 - [Dashboard](./Dashboard.md): See all your devices' locations on Mappls InTouch Dashboard
 - [InTouch Telematics APIs](./Dashboard.md): Use InTouch APIs to get the details of the devices.
 
-## <a name="Setup">Setup.
+## Setup
 
 We use your Client ID to identify your account details and assign all your user's devices under a single account.
 
 To get your Outh2 Rest API Client ID and Client Secret please login to Mappls [API Dashboard](https://about.mappls.com/api/signup)
 
-Please contact [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com) to get InTouch SDK access to your Client ID
+Please contact [apisupport@mappls.com](mailto:apisupport@mappls.com) to get InTouch SDK access to your Client ID
 
 After getting the access, you can [start with the InTouchDemo app](#InTouchDemoApp), or [Integrate the InTouch SDK](#IntegrateIntouchSDK) in your app.
 
-## <a name= "InTouchDemoApp">InTouchDemo app</a>
+## InTouchDemo app
 
 This guide allows you to add live location tracking to an Android app. [Android Studio](https://developer.android.com/studio/index.html) is the recommended development environment for building an app with the Mappls InTouch SDK for Android.
 
@@ -44,7 +44,7 @@ This guide allows you to add live location tracking to an Android app. [Android 
 
 #### Step 3. Check your location on the InTouch [dashboard](https://intouch.mappls.com/nextgen)
 
-## <a name="IntegrateIntouchSDK">Integrate the InTouch SDK
+## Integrate the InTouch SDK
 
 - [Add InTouch SDK](#AddInTouchSDK)
 - [Start tracking](#StartTracking)
@@ -67,7 +67,7 @@ Android Studio starts Gradle and builds your project. This may take a few second
 
 The next few sections contain the code samples that you need to add to your activity's java file as well as its xml layout file for creating an app with Mappls InTouch SDK for live tracking.
 
-## <a name="AddInTouchSDK">Step 2. Add InTouch SDK</a>
+## Step 2. Add InTouch SDK
 
 Follow these steps to add the SDK to your project –
 
@@ -221,13 +221,10 @@ InTouch.stopTracking();
 InTouch.stopTracking
 ```
 
-## <a name="Supportedplugin">Supported Plugin</a>
+## Supported Plugin
 
 ### - [Mappls BLE Plugin](https://github.com/Mappls/Mappls-intouch-android-sdk/wiki/Mappls-BLE-Plugin)
 
-## IMPORTANT
-
-> To read further, please refer to documentation available here: https://github.com/mappls-api/mapmyindia-intouch-android-sdk/wiki
 
 <br><br><br>
 
