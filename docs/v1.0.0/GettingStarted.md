@@ -102,7 +102,7 @@ compileOptions {
 
 ```java
  Required Minimum sdk version
- minSdkVersion 18
+ minSdkVersion 19
 ```
 
 ## Step 3: Initialize InTouch SDK
