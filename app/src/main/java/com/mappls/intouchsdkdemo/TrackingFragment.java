@@ -1,6 +1,7 @@
 package com.mappls.intouchsdkdemo;
 
 import android.content.Intent;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -19,11 +20,12 @@ import com.mappls.sdk.bleplugin.BleScanResultCallback;
 import com.mappls.sdk.bleplugin.BluetoothLEScanHelper;
 import com.mappls.sdk.intouch.InTouch;
 import com.mappls.sdk.tracking.Config;
+import com.mappls.sdk.tracking.LocationChangeObserver;
 import com.mappls.sdk.tracking.TrackingStateObserver;
 import com.mappls.sdk.tracking.utils.TrackingError;
 
 
-public class TrackingFragment extends Fragment implements TrackingStateObserver.OnTrackingStateChangeListener {
+public class TrackingFragment extends Fragment implements TrackingStateObserver.OnTrackingStateChangeListener, LocationChangeObserver.OnLocationStateChangeListener {
     private FragmentTrackingBinding mBinding;
     private BleScanResultCallback mBleScanResultCallback = null;
     // Enter user device Mac Address
@@ -106,8 +108,8 @@ public class TrackingFragment extends Fragment implements TrackingStateObserver.
     @Override
     public void onTrackingStart() {
         mBinding.setIsBeaconEnabled(true);
-        if (getActivity() != null)
-            Toast.makeText(getActivity(), "onTrackingStart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireActivity(), "onTrackingStart", Toast.LENGTH_SHORT).show();
+        InTouch.addLocationStateChangeListener(this);
     }
 
     @Override
@@ -115,6 +117,7 @@ public class TrackingFragment extends Fragment implements TrackingStateObserver.
         if (getActivity() != null)
             Toast.makeText(getActivity(), "onTrackingStop", Toast.LENGTH_SHORT).show();
         mBinding.setIsBeaconEnabled(false);
+        InTouch.removeLocationStateChangeListener(this);
     }
 
     @Override
@@ -125,5 +128,10 @@ public class TrackingFragment extends Fragment implements TrackingStateObserver.
         BluetoothLEScanHelper.getInstance().removeBleScanResultListener(mBleScanResultCallback);
         mBleScanResultCallback = null;
 
+    }
+
+    @Override
+    public void onLocationChange(Location location, boolean isFake, boolean isAccurate) {
+        // write your code here.
     }
 }

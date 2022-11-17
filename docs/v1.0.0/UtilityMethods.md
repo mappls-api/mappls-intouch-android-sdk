@@ -204,7 +204,7 @@ By default, InTouch SDK uses the optimal property.
 ```java
 InTouch.getCurrentLocation(new ILocationUpdate(){
  @Override
- public void onLocationUpdate(Location location) {
+ public void onLocationUpdate(Location location, boolean isFake, boolean isAccurate) {
 	 // write your code here.
  }
  @Override
@@ -218,7 +218,7 @@ InTouch.getCurrentLocation(new ILocationUpdate(){
 
 ```kotlin
 InTouch.getCurrentLocation(object : ILocationUpdate{
-    override fun onLocationUpdate(location : Location) {
+    override fun onLocationUpdate(location : Location, isFake : Boolean , isAccurate : Boolean ) {
          //write your code here
     }
 	override fun onError(reason: String?, errorIdentifier: String?, errorDescription: String?) {
