@@ -1,16 +1,19 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-## [Version History](#Version-History)
+## Dashboard
 
-| Version | Last Updated | Author |  Release Note|
-| ---- | ---- | ---- | ---- |
+Check your device live location in the Intouch Web dashboard. Login to [Intouch Dashboard](https://intouch.mappls.com/nextgen) using your Mappls Username and password.
 
-| v1.2.2 | 13 September 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.1 | 29 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.0 | 24 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.1.0 | 15 February 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Callback for Battery, GPS, GPRS & Device State|
-| v1.0.1 | 10 January 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Location Change Listener <br/> - Bug Fixes|
-| v1.0.0 | 16 November 2022 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) |   Initial release  |
+## Intouch Telematics API's
+
+### API list (Listed as methods)
+
+1. [Device Details](./DeviceDetails.md)
+2. [Event's Data](./Event-Data.md)
+3. [Drive's Data](./Drive-Data.md)
+4. [GeoFences](./Geofences.md)
+5. [Alarms](./Alarms.md)
+6. [Trips](./Trips.md)
 
 <br></br>
 

@@ -1,16 +1,11 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-## [Version History](#Version-History)
+## [Document Version History](#Doc-Version-History)
 
-| Version | Last Updated | Author |  Release Note|
-| ---- | ---- | ---- | ---- |
-
-| v1.2.2 | 13 September 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.1 | 29 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.0 | 24 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.1.0 | 15 February 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Callback for Battery, GPS, GPRS & Device State|
-| v1.0.1 | 10 January 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Location Change Listener <br/> - Bug Fixes|
-| v1.0.0 | 16 November 2022 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) |   Initial release  |
+| Version |  Supported SDK Version|
+| ---- | ---- |
+| [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
+| [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
 <br></br>
 

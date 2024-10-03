@@ -20,19 +20,20 @@ Already have an application? Give it a boost with the powerful features of InTou
 
 | Version | Supported SDK Version |
 | ---- | ---- |
+| [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
 | [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
-Reference to the documentation of Previous SDK versions [here](https://github.com/MapmyIndia/mapmyindia-intouch-android-sdk)
+For more details of previous documentation versions , [click here](./Documentation-History.md).
 
 ## [Version History](#Version-History)
 
 | Version | Last Updated | Author | Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.3.1 | 19 July 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes|
+| v1.3.0 | 14 June 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Android 14 support <br/> - Added feature to open app on click of Notification <br/> - Significant Improvement|
 | v1.2.2 | 13 September 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
 | v1.2.1 | 29 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
 | v1.2.0 | 24 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.1.0 | 15 February 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Callback for Battery, GPS, GPRS & Device State|
-| v1.0.1 | 10 January 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Location Change Listener <br/> - Bug Fixes|
 
 For more details of previous versions , [click here](./Version-History.md).
 

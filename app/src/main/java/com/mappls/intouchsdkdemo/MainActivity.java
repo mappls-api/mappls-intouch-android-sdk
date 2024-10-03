@@ -10,9 +10,13 @@ import androidx.fragment.app.Fragment;
 
 import com.mappls.intouchsdkdemo.databinding.ActivityMainBinding;
 import com.mappls.sdk.intouch.InTouch;
+import com.mappls.sdk.services.account.MapplsAccountManager;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private final String KEY_CLIENT_ID = "<your client id>";
+    private final String KEY_CLIENT_SECRET = "<your client secret>";
     private ActivityMainBinding mBinding;
 
     @Override
@@ -20,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
+        MapplsAccountManager.getInstance().setAtlasClientId(KEY_CLIENT_ID);
+        MapplsAccountManager.getInstance().setAtlasClientSecret(KEY_CLIENT_SECRET);
         new Handler().postDelayed(() -> {
             if (InTouch.isInitialized()) {
                 replaceFragment(new TrackingFragment());

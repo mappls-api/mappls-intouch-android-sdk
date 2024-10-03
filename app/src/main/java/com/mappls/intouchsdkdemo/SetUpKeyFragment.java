@@ -20,8 +20,6 @@ import com.mappls.sdk.tracking.utils.AutoStartPermissionHelper;
 
 public class SetUpKeyFragment extends Fragment {
 
-    private final String KEY_CLIENT_ID = "<your client id>";
-    private final String KEY_CLIENT_SECRET = "<your client secret>";
 
     private FragmentKeyInitializationBinding mBinding;
 
@@ -39,24 +37,21 @@ public class SetUpKeyFragment extends Fragment {
         mBinding.setOnClickInItKey(v -> {
             if (getActivity() == null)
                 return;
-            if (!TextUtils.isEmpty(KEY_CLIENT_ID) && !TextUtils.isEmpty(KEY_CLIENT_SECRET)) {
-                InTouch.initialize(mBinding.textName.getText().toString(), KEY_CLIENT_ID, KEY_CLIENT_SECRET, new IAuthListener() {
-                    @Override
-                    public void onSuccess(Long id) {
-                        if (getActivity() != null) {
-                            ((MainActivity) getActivity()).replaceFragment(new TrackingFragment());
-                        }
+            InTouch.initialize(mBinding.textName.getText().toString(), new IAuthListener() {
+                @Override
+                public void onSuccess(Long id) {
+                    if (getActivity() != null) {
+                        ((MainActivity) getActivity()).replaceFragment(new TrackingFragment());
                     }
+                }
 
 
-                    @Override
-                    public void onError(String reason, String errorIdentifier, String errorDescription) {
-                        Toast.makeText(requireContext(), ":- " + reason + ";" + errorIdentifier + ";" + errorDescription, Toast.LENGTH_SHORT).show();
-                    }
-                });
-            } else {
-                mBinding.textKey.setError("Invalid Key");
-            }
+                @Override
+                public void onError(String reason, String errorIdentifier, String errorDescription) {
+                    Toast.makeText(requireContext(), ":- " + reason + ";" + errorIdentifier + ";" + errorDescription, Toast.LENGTH_SHORT).show();
+                }
+            });
+
         });
         if (getActivity() != null) {
             AutoStartPermissionHelper.getPermissionHelper().getAutoStartPermission(getActivity());

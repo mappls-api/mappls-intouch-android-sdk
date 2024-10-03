@@ -1,16 +1,32 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-## [Version History](#Version-History)
+# Road Detail
+To get the Road Detail on Every Location Change in Callback.
 
-| Version | Last Updated | Author |  Release Note|
-| ---- | ---- | ---- | ---- |
+## To Enable Callback
+~~~java
+new Config.Builder(requireContext())
+    .setEnableRoadDetailEvent(true)
+    .build();
+~~~
 
-| v1.2.2 | 13 September 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.1 | 29 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.2.0 | 24 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
-| v1.1.0 | 15 February 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Callback for Battery, GPS, GPRS & Device State|
-| v1.0.1 | 10 January 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Added Location Change Listener <br/> - Bug Fixes|
-| v1.0.0 | 16 November 2022 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) |   Initial release  |
+## Callback
+To add the Road Detail callback (`RoadDetailChangeObserver.OnRoadDetailChangeListener`)
+
+~~~java
+InTouch.addRoadDetailChangeListener(this);
+~~~
+To remove  Road detail calback:
+~~~java
+InTouch.removeRoadDetailChangeListener(this);
+~~~
+
+This callback provides below reponse:
+1. `speedLimit`(Integer)
+2. `formOfWay`(String)
+3. `distance`(Double)
+4. `roadClass`(String)
+
 
 <br></br>
 

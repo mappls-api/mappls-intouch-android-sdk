@@ -71,12 +71,6 @@ public class TrackingFragment extends Fragment implements TrackingStateObserver.
         return mBinding.getRoot();
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-
-    }
-
     private void stopTracking() {
         InTouch.stopTracking();
     }
@@ -128,7 +122,7 @@ public class TrackingFragment extends Fragment implements TrackingStateObserver.
     }
 
     @Override
-    public void onLocationChange(Location location, boolean isFake, boolean isAccurate) {
-        // write your code here.
+    public void onLocationChange(Location location, boolean isFake, boolean isAccurate, boolean isGeoLocation) {
+
     }
 }
