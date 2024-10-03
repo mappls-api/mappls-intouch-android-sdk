@@ -13,46 +13,53 @@ Already have an application? Give it a boost with the powerful features of InTou
 - [Setup](#Setup): Please contact apisupport@mappls.com to get the Intouch SDK authorisation for your Client ID and Client Secret.
 - [Quick Start](https://github.com/mappls-api/mappls-intouch-android-sdk#intouchdemo-app): Start with a ready-to-go app
 - [Integrate the SDK](#IntegrateIntouchSDK): Integrate the SDK into your app
-- [Dashboard](docs/v1.0.0/Dashboard.md): See all your devices' locations on Mappls InTouch Dashboard
-- [InTouch Telematics APIs](docs/v1.0.0/Dashboard.md): Use InTouch APIs to get the details of the devices.
+- [Dashboard](./Dashboard.md): See all your devices' locations on Mappls InTouch Dashboard
+- [InTouch Telematics APIs](./Dashboard.md): Use InTouch APIs to get the details of the devices.
 
 ## [Documentation History](#Documentation-History)
 
 | Version | Supported SDK Version |
 | ---- | ---- |
-| [v1.0.0](docs/v1.0.0/README.md) | - Mappls BLE Plugin v1.0.0 |
+| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.0 |
+| [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
+| [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
-Reference to the documentation of Previous SDK versions [here](https://github.com/MapmyIndia/mapmyindia-intouch-android-sdk)
+For more details of previous documentation versions , [click here](docs/v1.0.2/Documentation-History.md).
 
 ## [Version History](#Version-History)
 
 | Version | Last Updated | Author | Release Note|
 | ---- | ---- | ---- | ---- |
-| v1.0.0 | 16 November 2022 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | -Initial release |
+| v1.4.0 | 01 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Road Details Callback on Every location Change |
+| v1.3.1 | 19 July 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes|
+| v1.3.0 | 14 June 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Android 14 support <br/> - Added feature to open app on click of Notification <br/> - Significant Improvement|
+| v1.2.2 | 13 September 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
+| v1.2.1 | 29 August 2023 | Mappls API Team ([MA](https://github.com/mdakram)) ([DK](https://github.com/katariadeepak86)) | - Bug Fixes|
 
-For more details of previous versions , [click here](docs/v1.0.0/Version-History.md).
+For more details of previous versions , [click here](./Version-History.md).
 
 ## [Table Of Content](#Table-Of-Content)
 
-- [InTouch Android SDK](docs/v1.0.0/GettingStarted.md)
+- [InTouch Android SDK](docs/v1.0.2/GettingStarted.md)
 
-* [Getting Started](docs/v1.0.0/GettingStarted.md#setup)
+* [Getting Started](docs/v1.0.2/GettingStarted.md#setup)
 
-* [Add your API keys to the SDK](docs/v1.0.0/GettingStarted.md#step-2-set-your-publishable-key)
+* [Add your API keys to the SDK](docs/v1.0.2/GettingStarted.md#step-2-set-your-publishable-key)
 
-* [Add a Mappls InTouch Sdk to your application](docs/v1.0.0/GettingStarted.md#integrate-the-intouch-sdk)
+* [Add a Mappls InTouch Sdk to your application](docs/v1.0.2/GettingStarted.md#integrate-the-intouch-sdk)
 
-- [Intouch Telematics API's](docs/v1.0.0/Dashboard.md)
-    * [Device Details](docs/v1.0.0/DeviceDetails.md)
-    * [Event's Data](docs/v1.0.0/Event-Data.md)
-    * [Drive's Data](docs/v1.0.0/Drive-Data.md)
-    * [GeoFences](docs/v1.0.0/Geofences.md)
-    * [Alarms](docs/v1.0.0/Alarms.md)
-    * [Trips](docs/v1.0.0/Trips.md)
-- [Tracking Error](docs/v1.0.0/TrackingErrors.md)
-- [Utility Methods](docs/v1.0.0/UtilityMethods.md)
-- [InTouch Constants](docs/v1.0.0/InTouchConstants.md) 
--[MapmyIndia BLE Plugin](docs/v1.0.0/Mappls-BLE-Plugins.md)
+- [Intouch Telematics API's](docs/v1.0.2/Dashboard.md)
+    * [Device Details](docs/v1.0.2/DeviceDetails.md)
+    * [Event's Data](docs/v1.0.2/Event-Data.md)
+    * [Drive's Data](docs/v1.0.2/Drive-Data.md)
+    * [GeoFences](docs/v1.0.2/Geofences.md)
+    * [Alarms](docs/v1.0.2/Alarms.md)
+    * [Trips](docs/v1.0.2/Trips.md)
+- [Tracking Error](docs/v1.0.2/TrackingErrors.md)
+- [Utility Methods](docs/v1.0.2/UtilityMethods.md)
+- [InTouch Constants](docs/v1.0.2/InTouchConstants.md) 
+- [MapmyIndia BLE Plugin](docs/v1.0.2/Mappls-BLE-Plugins.md)
+- [Road Detail Event](docs/v1.0.2/Road-Event-Detail.md)
 <br><br><br>
 
 For any queries and support, please contact:
