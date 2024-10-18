@@ -4,6 +4,7 @@
 
 | Version | Last Updated | Author |  Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.4.1 | 18 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.0 | 01 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Road Details Callback on Every location Change |
 | v1.3.1 | 19 July 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes|
 | v1.3.0 | 14 June 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Android 14 support <br/> - Added feature to open app on click of Notification <br/> - Significant Improvement|
