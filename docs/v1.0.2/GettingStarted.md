@@ -171,7 +171,7 @@ Initialize the SDK with your own Unique Id. It is recommended to use when you ma
 
 ```java
 // IAuthListener - returns authorization results in the forms of callbacks.
-InTouch.initialize(<device name>, <your client id>, <your client secret>, <uniqueId>, <fcmToken>, new IAuthListener() {
+InTouch.initialize(<device name>, <uniqueId>, <fcmToken>, new IAuthListener() {
 	@Override
 	public void onSuccess(Long id) {
 			  //write your code here
@@ -189,7 +189,7 @@ InTouch.initialize(<device name>, <your client id>, <your client secret>, <uniqu
 #### Kotlin
 
 ```Kotlin
-InTouch.initialize(<device name>, <your client id>, <your client secret>, <uniqueId>, <fcmToken>, object : IAuthListener {
+InTouch.initialize(<device name>, <uniqueId>, <fcmToken>, object : IAuthListener {
     override fun onSuccess(Long entityId) {
          //write your code here
     }
