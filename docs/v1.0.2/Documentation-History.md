@@ -4,7 +4,7 @@
 
 | Version |  Supported SDK Version|
 | ---- | ---- |
-| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.1 |
+| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.3 |
 | [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
 | [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 

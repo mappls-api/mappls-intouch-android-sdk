@@ -4,6 +4,7 @@
 
 | Version | Last Updated | Author |  Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.4.3 | 04 March 2025| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.2 | 28 November 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.1 | 18 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.0 | 01 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Road Details Callback on Every location Change |

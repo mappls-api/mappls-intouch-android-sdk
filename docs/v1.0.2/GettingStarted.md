@@ -88,7 +88,7 @@ allprojects {
 - Add below dependency in your app-level `build.gradle`
 
 ```java
-implementation 'com.mappls.sdk:intouch-sdk:1.4.2'
+implementation 'com.mappls.sdk:intouch-sdk:1.4.3'
 ```
 
 ### Add Java 8 Support to the project
