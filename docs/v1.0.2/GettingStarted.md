@@ -87,21 +87,21 @@ allprojects {
 
 - Add below dependency in your app-level `build.gradle`
 
-```java
-implementation 'com.mappls.sdk:intouch-sdk:1.4.3'
+```groovy
+implementation 'com.mappls.sdk:intouch-sdk:1.4.4'
 ```
 
-### Add Java 8 Support to the project
+### Add Java 17 Support to the project
 
-```java
+```groovy
 compileOptions {
-      sourceCompatibility 1.8
-      targetCompatibility 1.8
+      sourceCompatibility JavaVersion.VERSION_17
+      targetCompatibility JavaVersion.VERSION_17
   }
 ```
 
-```java
- Required Minimum sdk version
+```groovy
+ //Required Minimum sdk version
  minSdkVersion 19
 ```
 

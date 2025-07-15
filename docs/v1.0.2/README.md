@@ -20,7 +20,7 @@ Already have an application? Give it a boost with the powerful features of InTou
 
 | Version | Supported SDK Version |
 | ---- | ---- |
-| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.3 |
+| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.4 |
 | [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
 | [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
@@ -30,11 +30,11 @@ For more details of previous documentation versions , [click here](./Documentati
 
 | Version | Last Updated | Author | Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.4.4  | 15 July 2025     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.3 | 04 March 2025| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.2 | 28 November 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.1 | 18 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.0 | 01 October 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added Road Details Callback on Every location Change |
-| v1.3.1 | 19 July 2024| Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes|
 
 For more details of previous versions , [click here](./Version-History.md).
 
