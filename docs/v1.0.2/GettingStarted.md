@@ -88,7 +88,7 @@ allprojects {
 - Add below dependency in your app-level `build.gradle`
 
 ```groovy
-implementation 'com.mappls.sdk:intouch-sdk:1.4.4'
+implementation 'com.mappls.sdk:intouch-sdk:1.4.5'
 ```
 
 ### Add Java 17 Support to the project
