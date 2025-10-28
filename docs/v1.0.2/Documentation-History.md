@@ -2,11 +2,11 @@
 
 ## [Document Version History](#Doc-Version-History)
 
-| Version | Supported SDK Version       |
-| ---- |-----------------------------|
-| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.5 |
-| [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
-| [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
+| Version                       | Supported SDK Version       |
+|-------------------------------|-----------------------------|
+| [v1.0.2](../v1.0.2/README.md) | - Mappls Intouch SDK v1.4.7 |
+| [v1.0.1](../v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
+| [v1.0.0](../v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
 <br></br>
 
@@ -31,7 +31,7 @@ Need support? contact us!
 
 [<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
-<div  align="center">@ Copyright 2022 CE Info Systems Ltd. All Rights Reserved.</div>
+<div  align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div  align="center">  <a  href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a  href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a  href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a  href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a  href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 

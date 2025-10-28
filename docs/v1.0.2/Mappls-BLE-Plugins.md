@@ -27,8 +27,8 @@ allprojects {
 - Add below dependency in your app-level `build.gradle`
 
 ```java
-implementation 'com.mappls.sdk:intouch-sdk:1.0.0'
-implementation 'com.mappls.sdk:ble-plugin:1.0.0'
+implementation 'com.mappls.sdk:intouch-sdk:1.4.7'
+implementation 'com.mappls.sdk:ble-plugin:1.0.1'
 ```
 
 ### Add Java 8 Support to the project
@@ -42,7 +42,7 @@ compileOptions {
 
 ```java
  Required Minimum sdk version
- minSdkVersion 18
+ minSdkVersion 19
 ```
 
 ## <a name="StartTracking">Step 2: Start Tracking Location based BLE sensor</a>
@@ -99,7 +99,7 @@ Need support? contact us!
 
 [<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
-<div  align="center">@ Copyright 2022 CE Info Systems Ltd. All Rights Reserved.</div>
+<div  align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div  align="center">  <a  href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a  href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a  href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a  href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a  href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 

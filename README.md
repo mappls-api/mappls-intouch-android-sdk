@@ -20,7 +20,7 @@ Already have an application? Give it a boost with the powerful features of InTou
 
 | Version | Supported SDK Version       |
 | ---- |-----------------------------|
-| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.5 |
+| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.7 |
 | [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
 | [v1.0.0](docs/v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
 
@@ -30,11 +30,11 @@ For more details of previous documentation versions , [click here](docs/v1.0.2/D
 
 | Version | Last Updated      | Author | Release Note|
 |---------|-------------------| ---- | ---- |
+| v1.4.7  | 28 October 2025   | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.6  | 18 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.5  | 04 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added 16 KB Support |
 | v1.4.4  | 15 July 2025      | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.3  | 04 March 2025     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
-| v1.4.2  | 28 November 2024  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 
 For more details of previous versions , [click here](docs/v1.0.2/Version-History.md).
 
@@ -58,7 +58,7 @@ For more details of previous versions , [click here](docs/v1.0.2/Version-History
 - [Tracking Error](docs/v1.0.2/TrackingErrors.md)
 - [Utility Methods](docs/v1.0.2/UtilityMethods.md)
 - [InTouch Constants](docs/v1.0.2/InTouchConstants.md) 
-- [MapmyIndia BLE Plugin](docs/v1.0.2/Mappls-BLE-Plugins.md)
+- [Mappls BLE Plugin](docs/v1.0.2/Mappls-BLE-Plugins.md)
 - [Road Detail Event](docs/v1.0.2/Road-Event-Detail.md)
 <br><br><br>
 
@@ -82,7 +82,7 @@ Need support? contact us!
 
 [<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
-<div  align="center">@ Copyright 2022 CE Info Systems Ltd. All Rights Reserved.</div>
+<div  align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div  align="center">  <a  href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a  href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a  href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a  href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a  href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 
