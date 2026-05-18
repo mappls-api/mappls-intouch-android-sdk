@@ -18,48 +18,49 @@ Already have an application? Give it a boost with the powerful features of InTou
 
 ## [Documentation History](#Documentation-History)
 
-| Version                         | Supported SDK Version       |
-|---------------------------------|-----------------------------|
-| [v1.0.3](docs/v1.0.3/README.md) | - Mappls Intouch SDK v1.4.9 |
-| [v1.0.2](docs/v1.0.2/README.md) | - Mappls Intouch SDK v1.4.8 |
-| [v1.0.1](docs/v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
+| Version                       | Supported SDK Version       |
+|-------------------------------|-----------------------------|
+| [v1.0.3](../v1.0.3/README.md) | - Mappls Intouch SDK v1.4.9 |
+| [v1.0.2](../v1.0.2/README.md) | - Mappls Intouch SDK v1.4.8 |
+| [v1.0.1](../v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
 
-For more details of previous documentation versions , [click here](docs/v1.0.3/Documentation-History.md).
+For more details of previous documentation versions , [click here](./Documentation-History.md).
 
 ## [Version History](#Version-History)
 
-| Version | Last Updated      | Author | Release Note                                                                                                |
-|---------|-------------------| ---- |-------------------------------------------------------------------------------------------------------------|
+| Version | Last Updated      | Author | Release Note                                           |
+|---------|-------------------| ---- |--------------------------------------------------------|
 | v1.4.9  | 18 May 2026       | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added `isGNSSFullTrackingEnable` & `isWaitForAccurateLocation` to get Accurate Location </br> - Bug Fixes |
-| v1.4.8  | 24 March 2026     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes                                                 |
-| v1.4.7  | 28 October 2025   | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes                                                                                                 |
-| v1.4.6  | 18 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes                                                                                                 |
-| v1.4.5  | 04 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added 16 KB Support                                                                                       |
+| v1.4.8  | 24 March 2026     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
+| v1.4.7  | 28 October 2025   | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
+| v1.4.6  | 18 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
+| v1.4.5  | 04 September 2025 | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added 16 KB Support                                  |
+| v1.4.4  | 15 July 2025      | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes                                            |
 
-For more details of previous versions , [click here](docs/v1.0.3/Version-History.md).
+For more details of previous versions , [click here](./Version-History.md).
 
 ## [Table Of Content](#Table-Of-Content)
 
-- [InTouch Android SDK](docs/v1.0.3/GettingStarted.md)
+- [InTouch Android SDK](GettingStarted.md)
 
-* [Getting Started](docs/v1.0.3/GettingStarted.md#setup)
+* [Getting Started](./GettingStarted.md#setup)
 
-* [Add your API keys to the SDK](docs/v1.0.3/GettingStarted.md#step-2-set-your-publishable-key)
+* [Add your API keys to the SDK](./GettingStarted.md#step-2-set-your-publishable-key)
 
-* [Add a Mappls InTouch Sdk to your application](docs/v1.0.3/GettingStarted.md#integrate-the-intouch-sdk)
+* [Add a Mappls InTouch Sdk to your application](./GettingStarted.md#integrate-the-intouch-sdk)
 
-- [Intouch Telematics API's](docs/v1.0.3/Dashboard.md)
-    * [Device Details](docs/v1.0.3/DeviceDetails.md)
-    * [Event's Data](docs/v1.0.3/Event-Data.md)
-    * [Drive's Data](docs/v1.0.3/Drive-Data.md)
-    * [GeoFences](docs/v1.0.3/Geofences.md)
-    * [Alarms](docs/v1.0.3/Alarms.md)
-    * [Trips](docs/v1.0.3/Trips.md)
-- [Tracking Error](docs/v1.0.3/TrackingErrors.md)
-- [Utility Methods](docs/v1.0.3/UtilityMethods.md)
-- [InTouch Constants](docs/v1.0.3/InTouchConstants.md) 
-- [Mappls BLE Plugin](docs/v1.0.3/Mappls-BLE-Plugins.md)
-- [Road Detail Event](docs/v1.0.3/Road-Event-Detail.md)
+- [Intouch Telematics API's](./Dashboard.md)
+    * [Device Details](./DeviceDetails.md)
+    * [Event's Data](./Event-Data.md)
+    * [Drive's Data](./Drive-Data.md)
+    * [GeoFences](./Geofences.md)
+    * [Alarms](./Alarms.md)
+    * [Trips](./Trips.md)
+- [Tracking Error](./TrackingErrors.md)
+- [Utility Methods](./UtilityMethods.md)
+- [InTouch Constants](./InTouchConstants.md) 
+- [MapmyIndia BLE Plugin](./Mappls-BLE-Plugins.md)
+- [Road Detail Event](./Road-Event-Detail.md)
 <br><br><br>
 
 For any queries and support, please contact:
@@ -82,7 +83,7 @@ Need support? contact us!
 
 [<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
 
-<div  align="center">@ Copyright 2026 CE Info Systems Ltd. All Rights Reserved.</div>
+<div  align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
 
 <div  align="center">  <a  href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a  href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a  href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a  href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a  href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
 

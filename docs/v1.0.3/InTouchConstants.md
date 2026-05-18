@@ -1,38 +1,57 @@
 [<img src="https://about.mappls.com/images/mappls-b-logo.svg" height="60"/> </p>](https://www.mapmyindia.com/api)
 
-## [Document Version History](#Doc-Version-History)
+## Alarm Type
+ALARM_IGNITION = 21;  
+ALARM_OVERSPEED = 22;  
+ALARM_UNPLUGGED = 23;  
+ALARM_PANIC = 24;  
+ALARM_GEOFENCE = 26;  
+ALARM_STOPPAGE = 27;  
+ALARM_IDLE = 28;  
+ALARM_TOWING = 29;  
+ALARM_GPRS_CONNECTIVITY = 126;  
+ALARM_VEHICLE_BATTERY = 129;  
+ALARM_MILEAGE = 133;  
+ALARM_GPS_CONNECTIVITY = 146;  
+ALARM_DISTANCE_COVERED = 151;  
+ALARM_INTERNAL_BATTERY_VOLTAGE = 161;
 
-| Version                       | Supported SDK Version       |
-|-------------------------------|-----------------------------|
-| [v1.0.2](../v1.0.2/README.md) | - Mappls Intouch SDK v1.4.8 |
-| [v1.0.1](../v1.0.1/README.md) | - Mappls Intouch SDK v1.3.1 |
-| [v1.0.0](../v1.0.0/README.md) | - Mappls Intouch SDK v1.2.2 |
+## Type :
+### Geofence Alarm type:
+ALARM_GEOFENCE_ENTRY_EXIT = 1;
+ALARM_GEOFENCE_ENTRY = 2;
+ALARM_GEOFENCE_EXIT = 3;
+ALARM_GEOFENCE_STAY_LONG = 4;
 
-<br></br>
+### Ignition alarm type:
+ALARM_IGNITION_ON_OFF = 1;
+ALARM_IGNITION_ON = 2;
+ALARM_IGNITION_OFF = 3;
+ALARM_DAY_FIRST_IGNITION = 5;
 
-<br></br>
+### ​Mileage alarm type:
+ALARM_MILEAGE_DAILY = 0;
+ALARM_MILEAGE_MONTHLY = 1;
+
+### Distance Covered alarm type:
+
+ALARM_DISTANCE_COVERED_ATLEAST = 1;
+ALARM_DISTANCE_COVERED_ATMOST = 2;
+
+<br><br><br>
+
 For any queries and support, please contact:
 
 [<img src="https://about.mappls.com/images/mappls-logo.svg" height="40"/> </p>](https://about.mappls.com/api/)
-
 Email us at [apisupport@mappls.com](mailto:apisupport@mappls.com)
 
 ![](https://www.mapmyindia.com/api/img/icons/support.png)
-
 [Support](https://about.mappls.com/contact/)
-
 Need support? contact us!
 
 <br></br>
-
 <br></br>
 
 [<p align="center"> <img src="https://www.mapmyindia.com/api/img/icons/stack-overflow.png"/> ](https://stackoverflow.com/questions/tagged/mappls-api)[![](https://www.mapmyindia.com/api/img/icons/blog.png)](https://about.mappls.com/blog/)[![](https://www.mapmyindia.com/api/img/icons/gethub.png)](https://github.com/Mappls-api)[<img src="https://mmi-api-team.s3.ap-south-1.amazonaws.com/API-Team/npm-logo.one-third%5B1%5D.png" height="40"/> </p>](https://www.npmjs.com/org/mapmyindia)
 
 [<p align="center"> <img src="https://www.mapmyindia.com/june-newsletter/icon4.png"/> ](https://www.facebook.com/Mapplsofficial)[![](https://www.mapmyindia.com/june-newsletter/icon2.png)](https://twitter.com/mappls)[![](https://www.mapmyindia.com/newsletter/2017/aug/llinkedin.png)](https://www.linkedin.com/company/mappls/)[![](https://www.mapmyindia.com/june-newsletter/icon3.png)](https://www.youtube.com/channel/UCAWvWsh-dZLLeUU7_J9HiOA)
-
-<div  align="center">@ Copyright 2025 CE Info Systems Ltd. All Rights Reserved.</div>
-
-<div  align="center">  <a  href="https://about.mappls.com/api/terms-&-conditions">Terms & Conditions</a> | <a  href="https://about.mappls.com/about/privacy-policy">Privacy Policy</a> | <a  href="https://about.mappls.com/pdf/mapmyIndia-sustainability-policy-healt-labour-rules-supplir-sustainability.pdf">Supplier Sustainability Policy</a> | <a  href="https://about.mappls.com/pdf/Health-Safety-Management.pdf">Health & Safety Policy</a> | <a  href="https://about.mappls.com/pdf/Environment-Sustainability-Policy-CSR-Report.pdf">Environmental Policy & CSR Report</a>
-
-<div  align="center">Customer Care: +91-9999333223</div>
