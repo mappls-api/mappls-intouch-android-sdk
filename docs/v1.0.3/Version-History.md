@@ -4,6 +4,7 @@
 
 | Version | Last Updated | Author |  Release Note|
 | ---- | ---- | ---- | ---- |
+| v1.4.10 | 20 November 2026  | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Remove android or androidx related Proguard |
 | v1.4.9  | 18 May 2026       | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Added `isGNSSFullTrackingEnable` & `isWaitForAccurateLocation` to get Accurate Location </br> - Bug Fixes |
 | v1.4.8  | 24 March 2026     | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |
 | v1.4.7  | 28 October 2025   | Mappls API Team ([MA](https://github.com/mdakram)) ([ST](https://github.com/saksham66)) | - Bug Fixes |

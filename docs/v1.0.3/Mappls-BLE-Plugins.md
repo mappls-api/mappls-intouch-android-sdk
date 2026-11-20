@@ -27,7 +27,7 @@ allprojects {
 - Add below dependency in your app-level `build.gradle`
 
 ```java
-implementation 'com.mappls.sdk:intouch-sdk:1.4.7'
+implementation 'com.mappls.sdk:intouch-sdk:1.4.10'
 implementation 'com.mappls.sdk:ble-plugin:1.0.1'
 ```
 
